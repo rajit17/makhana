@@ -1,0 +1,40 @@
+{
+  "name": "makhana-website",
+  "version": "1.0.0",
+  "description": "Frontend-only website and order interface for Kamal Makhana.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.14.0",
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "tailwind-merge": "^3.5.0"
+  },
+  "overrides": {
+    "postcss": "^8.5.14"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.0",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.6",
+    "playwright": "^1.59.1",
+    "postcss": "^8.5.14",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^6.0.3"
+  }
+}
